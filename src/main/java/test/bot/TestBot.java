@@ -20,6 +20,7 @@ public class TestBot extends TelegramLongPollingBot {
                 e.printStackTrace();
             }
         }
+        System.out.println("kek" + update.getMessage().getChatId());
     }
 
     @Override
@@ -31,4 +32,6 @@ public class TestBot extends TelegramLongPollingBot {
     public String getBotToken() {
         return "534762565:AAFo70xBCRJrMk_Um2CH0qisydUA2gZ0Zks";
     }
+
+
 }

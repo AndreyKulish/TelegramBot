@@ -1,1 +1,1 @@
-console: java -jar target/TelegramBot-1.0-SNAPSHOT.jar
+worker: sh target/bin/workerBot

@@ -6,7 +6,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 public class TestBot extends TelegramLongPollingBot {
-    
+
     @Override
     public void onUpdateReceived(Update update) {
 // We check if the update has a message and the message has text
